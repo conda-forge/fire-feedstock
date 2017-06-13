@@ -19,12 +19,12 @@ requirements:
   build:
     - python
     - six
-    - ipython ==5
+    - ipython <=6
     - setuptools
   run:
     - python
     - six
-    - ipython ==5
+    - ipython <=6
 
 test:
   imports:
