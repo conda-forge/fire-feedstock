@@ -15,9 +15,7 @@ Python Fire is a simple way to create a CLI in Python. Python Fire is a helpful 
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/fire-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/fire-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/fire-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/fire-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/fire-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/fire-feedstock/branch/master)
+All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/fire-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/fire-feedstock)
 
 Current release info
 ====================

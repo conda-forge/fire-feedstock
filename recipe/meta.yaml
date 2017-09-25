@@ -1,30 +1,28 @@
 {% set name = "fire" %}
-{% set version = "0.1.1" %}
-{% set sha256 = "1458444b8d97d58ac29a4f524f6af6425cc38f324cb2076e0b656d52d566bd9f" %}
+{% set version = "0.1.2" %}
+{% set build = 0 %}
+{% set sha256 = "d84cea3e37c7f17fe8751688b678d77cca76fb0574db5ae171ca593511c0395c" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: {{ build }}
+  noarch: python
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
   build:
     - python
-    - six
-    - ipython <6
     - setuptools
   run:
     - python
     - six
-    - ipython <6
 
 test:
   imports:
@@ -35,7 +33,6 @@ about:
   license: Apache-2
   license_family: Apache
   summary: 'Python Fire is a library for creating command line interfaces (CLIs) from absolutely any Python object.'
-
   description: |
     Python Fire is a simple way to create a CLI in Python. Python Fire is a helpful tool for developing and debugging Python code. Python Fire helps with exploring existing code or turning other people's code into a CLI. Python Fire makes transitioning between Bash and Python easier. Python Fire makes using a Python REPL easier by setting up the REPL with the modules and variables you'll need already imported and created.
   doc_url: https://github.com/google/python-fire/blob/master/doc/guide.md
@@ -44,3 +41,4 @@ about:
 extra:
   recipe-maintainers:
     - CJ-Wright
+    - dougalsutherland
