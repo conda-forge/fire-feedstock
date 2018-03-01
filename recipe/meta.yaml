@@ -1,6 +1,5 @@
 {% set name = "fire" %}
 {% set version = "0.1.3" %}
-{% set build = 0 %}
 {% set sha256 = "c299d16064ff81cbb649b65988300d4a28b71ecfb789d1fb74d99ea98ae4d2eb" %}
 
 package:
