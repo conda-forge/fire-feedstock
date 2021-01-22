@@ -5,9 +5,13 @@ Home: https://github.com/google/python-fire
 
 Package license: Apache-2
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/fire-feedstock/blob/master/LICENSE.txt)
 
 Summary: Python Fire is a library for creating command line interfaces (CLIs) from absolutely any Python object.
+
+Development: https://github.com/google/python-fire
+
+Documentation: https://github.com/google/python-fire/blob/master/doc/guide.md
 
 Python Fire is a simple way to create a CLI in Python. Python Fire is a helpful tool for developing and debugging Python code. Python Fire helps with exploring existing code or turning other people's code into a CLI. Python Fire makes transitioning between Bash and Python easier. Python Fire makes using a Python REPL easier by setting up the REPL with the modules and variables you'll need already imported and created.
 
@@ -118,5 +122,4 @@ Feedstock Maintainers
 =====================
 
 * [@CJ-Wright](https://github.com/CJ-Wright/)
-* [@dougalsutherland](https://github.com/dougalsutherland/)
 
