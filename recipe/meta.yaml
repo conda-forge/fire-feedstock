@@ -30,7 +30,7 @@ test:
 
 about:
   home: https://github.com/google/python-fire
-  license: Apache-2
+  license: Apache-2.0
   license_family: Apache
   license_file: LICENSE
   summary: Python Fire is a library for creating command line interfaces (CLIs) from absolutely any Python object.
