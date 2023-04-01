@@ -1,11 +1,11 @@
-About fire
-==========
+About fire-feedstock
+====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/fire-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/google/python-fire
 
 Package license: Apache-2
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/fire-feedstock/blob/main/LICENSE.txt)
 
 Summary: Python Fire is a library for creating command line interfaces (CLIs) from absolutely any Python object.
 
