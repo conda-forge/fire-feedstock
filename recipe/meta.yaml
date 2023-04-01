@@ -17,20 +17,24 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3.7
     - pip
   run:
-    - python
+    - python >=3.7
     - termcolor
     - six
 
 test:
   imports:
     - fire
+  requires:
+    - pip
+  commands:
+    - pip check
 
 about:
   home: https://github.com/google/python-fire
-  license: Apache-2
+  license: Apache-2.0
   license_family: Apache
   license_file: LICENSE
   summary: Python Fire is a library for creating command line interfaces (CLIs) from absolutely any Python object.
